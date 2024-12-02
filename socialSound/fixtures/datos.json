@@ -1,0 +1,1381 @@
+[
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add album",
+            "content_type": 7,
+            "codename": "add_album"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change album",
+            "content_type": 7,
+            "codename": "change_album"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete album",
+            "content_type": 7,
+            "codename": "delete_album"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view album",
+            "content_type": 7,
+            "codename": "view_album"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add usuario",
+            "content_type": 8,
+            "codename": "add_usuario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change usuario",
+            "content_type": 8,
+            "codename": "change_usuario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete usuario",
+            "content_type": 8,
+            "codename": "delete_usuario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view usuario",
+            "content_type": 8,
+            "codename": "view_usuario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add cancion",
+            "content_type": 9,
+            "codename": "add_cancion"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change cancion",
+            "content_type": 9,
+            "codename": "change_cancion"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete cancion",
+            "content_type": 9,
+            "codename": "delete_cancion"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view cancion",
+            "content_type": 9,
+            "codename": "view_cancion"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add cancion playlist",
+            "content_type": 10,
+            "codename": "add_cancionplaylist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change cancion playlist",
+            "content_type": 10,
+            "codename": "change_cancionplaylist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete cancion playlist",
+            "content_type": 10,
+            "codename": "delete_cancionplaylist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view cancion playlist",
+            "content_type": 10,
+            "codename": "view_cancionplaylist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add detalle album",
+            "content_type": 11,
+            "codename": "add_detallealbum"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change detalle album",
+            "content_type": 11,
+            "codename": "change_detallealbum"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete detalle album",
+            "content_type": 11,
+            "codename": "delete_detallealbum"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view detalle album",
+            "content_type": 11,
+            "codename": "view_detallealbum"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add detalle cancion",
+            "content_type": 12,
+            "codename": "add_detallecancion"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change detalle cancion",
+            "content_type": 12,
+            "codename": "change_detallecancion"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete detalle cancion",
+            "content_type": 12,
+            "codename": "delete_detallecancion"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view detalle cancion",
+            "content_type": 12,
+            "codename": "view_detallecancion"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add estadisticas album",
+            "content_type": 13,
+            "codename": "add_estadisticasalbum"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change estadisticas album",
+            "content_type": 13,
+            "codename": "change_estadisticasalbum"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete estadisticas album",
+            "content_type": 13,
+            "codename": "delete_estadisticasalbum"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view estadisticas album",
+            "content_type": 13,
+            "codename": "view_estadisticasalbum"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 53,
+        "fields": {
+            "name": "Can add playlist",
+            "content_type": 14,
+            "codename": "add_playlist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 54,
+        "fields": {
+            "name": "Can change playlist",
+            "content_type": 14,
+            "codename": "change_playlist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 55,
+        "fields": {
+            "name": "Can delete playlist",
+            "content_type": 14,
+            "codename": "delete_playlist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 56,
+        "fields": {
+            "name": "Can view playlist",
+            "content_type": 14,
+            "codename": "view_playlist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 57,
+        "fields": {
+            "name": "Can add mensaje privado",
+            "content_type": 15,
+            "codename": "add_mensajeprivado"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 58,
+        "fields": {
+            "name": "Can change mensaje privado",
+            "content_type": 15,
+            "codename": "change_mensajeprivado"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 59,
+        "fields": {
+            "name": "Can delete mensaje privado",
+            "content_type": 15,
+            "codename": "delete_mensajeprivado"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 60,
+        "fields": {
+            "name": "Can view mensaje privado",
+            "content_type": 15,
+            "codename": "view_mensajeprivado"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 61,
+        "fields": {
+            "name": "Can add like",
+            "content_type": 16,
+            "codename": "add_like"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 62,
+        "fields": {
+            "name": "Can change like",
+            "content_type": 16,
+            "codename": "change_like"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 63,
+        "fields": {
+            "name": "Can delete like",
+            "content_type": 16,
+            "codename": "delete_like"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 64,
+        "fields": {
+            "name": "Can view like",
+            "content_type": 16,
+            "codename": "view_like"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 65,
+        "fields": {
+            "name": "Can add comentario",
+            "content_type": 17,
+            "codename": "add_comentario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 66,
+        "fields": {
+            "name": "Can change comentario",
+            "content_type": 17,
+            "codename": "change_comentario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 67,
+        "fields": {
+            "name": "Can delete comentario",
+            "content_type": 17,
+            "codename": "delete_comentario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 68,
+        "fields": {
+            "name": "Can view comentario",
+            "content_type": 17,
+            "codename": "view_comentario"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 69,
+        "fields": {
+            "name": "Can add seguidores",
+            "content_type": 18,
+            "codename": "add_seguidores"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 70,
+        "fields": {
+            "name": "Can change seguidores",
+            "content_type": 18,
+            "codename": "change_seguidores"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 71,
+        "fields": {
+            "name": "Can delete seguidores",
+            "content_type": 18,
+            "codename": "delete_seguidores"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 72,
+        "fields": {
+            "name": "Can view seguidores",
+            "content_type": 18,
+            "codename": "view_seguidores"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 73,
+        "fields": {
+            "name": "Can add guardado",
+            "content_type": 19,
+            "codename": "add_guardado"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 74,
+        "fields": {
+            "name": "Can change guardado",
+            "content_type": 19,
+            "codename": "change_guardado"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 75,
+        "fields": {
+            "name": "Can delete guardado",
+            "content_type": 19,
+            "codename": "delete_guardado"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 76,
+        "fields": {
+            "name": "Can view guardado",
+            "content_type": 19,
+            "codename": "view_guardado"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$O5NMiMyUmbnNp6ohGdvcaQ$gBBFHcoS2svTjyZk+CMNn+QAgkTDB4SMRAVamobtqGM=",
+            "last_login": "2024-11-02T04:14:22.140",
+            "is_superuser": true,
+            "username": "lolo",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-11-02T04:13:59.266",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "socialSound",
+            "model": "album"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "socialSound",
+            "model": "usuario"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "socialSound",
+            "model": "cancion"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "socialSound",
+            "model": "cancionplaylist"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "socialSound",
+            "model": "detallealbum"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "socialSound",
+            "model": "detallecancion"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 13,
+        "fields": {
+            "app_label": "socialSound",
+            "model": "estadisticasalbum"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 14,
+        "fields": {
+            "app_label": "socialSound",
+            "model": "playlist"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 15,
+        "fields": {
+            "app_label": "socialSound",
+            "model": "mensajeprivado"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 16,
+        "fields": {
+            "app_label": "socialSound",
+            "model": "like"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 17,
+        "fields": {
+            "app_label": "socialSound",
+            "model": "comentario"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 18,
+        "fields": {
+            "app_label": "socialSound",
+            "model": "seguidores"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 19,
+        "fields": {
+            "app_label": "socialSound",
+            "model": "guardado"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "3w6ig0bmcd6l09c8sc8735m03jmd2clb",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pDBCRRcuvcMZGAGqRqalHbVeHdt0oVu_3vvbyrSutS4dpnjyOqijDr9bonyU9oO-EHtPuk8tWUek94VfdCubxPL63q4fweVev3WBRhQAlp3hmLEoiFI4tA4sCRIABiALZMPDHlgYRT2yXjnRHIZ1PsD1Ls4Hw:1t74ak:2alxQ-xElt2w8aCuXhhlvhKTpxSAiY3gkNyH075_alo",
+            "expire_date": "2024-11-16T04:14:22.147"
+        }
+    },
+    {
+        "model": "socialSound.usuario",
+        "pk": 1,
+        "fields": {
+            "nombre_usuario": "usuario1",
+            "password": "contraseña1",
+            "bio": "Bio del usuario 1.",
+            "ciudad": "Ciudad 1",
+            "foto_perfil": "fotos_perfil/the-wall-de-pink-floyd.webp",
+            "fecha_nac": "1990-01-01",
+            "email": "usuario1@example.com"
+        }
+    },
+    {
+        "model": "socialSound.usuario",
+        "pk": 2,
+        "fields": {
+            "nombre_usuario": "JunkieHead",
+            "password": "contraseña2",
+            "bio": "Bio del usuario 2.",
+            "ciudad": "Ciudad 2",
+            "foto_perfil": "fotos_perfil/Amyl-and-The-Sniffers-Amyl-poderosa.jpg",
+            "fecha_nac": "1992-02-02",
+            "email": "usuario2@example.com"
+        }
+    },
+    {
+        "model": "socialSound.usuario",
+        "pk": 3,
+        "fields": {
+            "nombre_usuario": "HumoInternacional",
+            "password": "contraseña3",
+            "bio": "Bio del usuario 3.",
+            "ciudad": "Ciudad 3",
+            "foto_perfil": "fotos_perfil/depositphotos_20405779-stock-illustration-punk-bear.jpg",
+            "fecha_nac": "1993-03-03",
+            "email": "usuario3@example.com"
+        }
+    },
+    {
+        "model": "socialSound.usuario",
+        "pk": 4,
+        "fields": {
+            "nombre_usuario": "usuario4",
+            "password": "contraseña4",
+            "bio": "Bio del usuario 4.",
+            "ciudad": "Ciudad 4",
+            "foto_perfil": "fotos_perfil/BadBrains_Logo_1200x630.webp",
+            "fecha_nac": "1990-01-01",
+            "email": "usuario4@example.com"
+        }
+    },
+    {
+        "model": "socialSound.album",
+        "pk": 1,
+        "fields": {
+            "titulo": "S/T EP",
+            "artista": "Cuerda huida",
+            "portada": "album_portadas/a4061000758_16.jpg",
+            "usuario": 1,
+            "descripcion": "Descripción del álbum 1."
+        }
+    },
+    {
+        "model": "socialSound.album",
+        "pk": 2,
+        "fields": {
+            "titulo": "Go",
+            "artista": "Sonic Youth",
+            "portada": "album_portadas/71+bOXHJKHL._UF894,1000_QL80_.jpg",
+            "usuario": 2,
+            "descripcion": "Descripción del álbum 2."
+        }
+    },
+    {
+        "model": "socialSound.album",
+        "pk": 3,
+        "fields": {
+            "titulo": "Álbum 3",
+            "artista": "Artista 3",
+            "portada": "album_portadas/fugazi-fugazi-714740.webp",
+            "usuario": 3,
+            "descripcion": "Descripción del álbum 3."
+        }
+    },
+    {
+        "model": "socialSound.detallealbum",
+        "pk": 1,
+        "fields": {
+            "album": 1,
+            "productor": "Productor Uno",
+            "estudio_grabacion": "Estudio Central",
+            "numero_pistas": 3,
+            "sello_discografico": "La vida es un mus"
+        }
+    },
+    {
+        "model": "socialSound.detallealbum",
+        "pk": 2,
+        "fields": {
+            "album": 2,
+            "productor": "Productor Dos",
+            "estudio_grabacion": "Estudio Norte",
+            "numero_pistas": 6,
+            "sello_discografico": "detriti records"
+        }
+    },
+    {
+        "model": "socialSound.detallealbum",
+        "pk": 3,
+        "fields": {
+            "album": 3,
+            "productor": "Productor Tres",
+            "estudio_grabacion": "",
+            "numero_pistas": 5,
+            "sello_discografico": "Soinu Basatiak"
+        }
+    },
+    {
+        "model": "socialSound.estadisticasalbum",
+        "pk": 1,
+        "fields": {
+            "album": 1,
+            "reproducciones": 1500,
+            "likes": 300,
+            "comentarios": 45
+        }
+    },
+    {
+        "model": "socialSound.estadisticasalbum",
+        "pk": 2,
+        "fields": {
+            "album": 2,
+            "reproducciones": 750,
+            "likes": 120,
+            "comentarios": 30
+        }
+    },
+    {
+        "model": "socialSound.estadisticasalbum",
+        "pk": 3,
+        "fields": {
+            "album": 3,
+            "reproducciones": 2200,
+            "likes": 500,
+            "comentarios": 65
+        }
+    },
+    {
+        "model": "socialSound.cancion",
+        "pk": 1,
+        "fields": {
+            "titulo": "Todos quieren algo",
+            "artista": "Cuerda huida",
+            "archivo_audio": "canciones/01_-_TODOS_QUIEREN_ALGO.wav",
+            "usuario": 1,
+            "album": 1,
+            "etiqueta": "punk"
+        }
+    },
+    {
+        "model": "socialSound.cancion",
+        "pk": 2,
+        "fields": {
+            "titulo": "No nos queda nada",
+            "artista": "Cuerda huida",
+            "archivo_audio": "canciones/05-nonosquedanada.mp3",
+            "usuario": 1,
+            "album": 1,
+            "etiqueta": "punk"
+        }
+    },
+    {
+        "model": "socialSound.cancion",
+        "pk": 3,
+        "fields": {
+            "titulo": "Un cuchillo",
+            "artista": "Cuerda huida",
+            "archivo_audio": "canciones/04-UNCUCHILLO.mp3",
+            "usuario": 1,
+            "album": 1,
+            "etiqueta": "punk"
+        }
+    },
+    {
+        "model": "socialSound.cancion",
+        "pk": 4,
+        "fields": {
+            "titulo": "Canción 4",
+            "artista": "Artista 3",
+            "archivo_audio": "canciones/01_-_TODOS_QUIEREN_ALGO.wav",
+            "usuario": 3,
+            "album": 3,
+            "etiqueta": "jazz"
+        }
+    },
+    {
+        "model": "socialSound.cancion",
+        "pk": 5,
+        "fields": {
+            "titulo": "Canción 5",
+            "artista": "Artista 4",
+            "archivo_audio": "canciones/01_-_TODOS_QUIEREN_ALGO.wav",
+            "usuario": 3,
+            "album": 3,
+            "etiqueta": "jazz"
+        }
+    },
+    {
+        "model": "socialSound.cancion",
+        "pk": 6,
+        "fields": {
+            "titulo": "Canción 6",
+            "artista": "Artista 4",
+            "archivo_audio": "canciones/01_-_TODOS_QUIEREN_ALGO.wav",
+            "usuario": 3,
+            "album": 3,
+            "etiqueta": "jazz"
+        }
+    },
+    {
+        "model": "socialSound.cancion",
+        "pk": 7,
+        "fields": {
+            "titulo": "Canción 7",
+            "artista": "Artista 4",
+            "archivo_audio": "canciones/01_-_TODOS_QUIEREN_ALGO.wav",
+            "usuario": 2,
+            "album": 2,
+            "etiqueta": "jazz"
+        }
+    },
+    {
+        "model": "socialSound.detallescancion",
+        "pk": 1,
+        "fields": {
+            "cancion": 1,
+            "letra": "Caras egoístas, todos venden humo ¿Buscas algún sitio? A ver si encuentras uno Tira a otro lado no te vayas a asustar Aquí la peña tiene demasiada maldad Pide algo ahora que jamás lo tendrás Todos quieres algo, tú se lo darás  Mentes corrompidas, tejen sus mentiras ¿Ya te han seducido? Ya comes de su mano",
+            "creditos": "Escrita y producida por Cuerda huida.",
+            "duracion": "00:03:20",
+            "idioma": "Español"
+        }
+    },
+    {
+        "model": "socialSound.detallescancion",
+        "pk": 5,
+        "fields": {
+            "cancion": 5,
+            "letra": "moscaaaaa fuerasssss mosca fueraaaasss",
+            "duracion": "00:03:20",
+            "idioma": "Español"
+        }
+    },
+    {
+        "model": "socialSound.detallescancion",
+        "pk": 4,
+        "fields": {
+            "cancion": 4,
+            "letra": "lalallala ohohohoh lalalal ohohoh",
+            "duracion": "00:03:20",
+            "idioma": "Español"
+        }
+    },
+    {
+        "model": "socialSound.detallescancion",
+        "pk": 2,
+        "fields": {
+            "cancion": 2,
+            "letra": "Voces rotas del pasado quieren atraparme Son los restos de mi mismo que he ido rechazando He inventado realidades que nunca existieron Viejas sombras disfrazadas que nunca se fueron  Una cueva en mi cabeza está ocultando algo Muchas caras disociadas gritan sin descanso Me han clavado un cuchillo para ver si sangro Me han mirado a los ojos para ver si valgo",
+            "duracion": "00:03:20",
+            "idioma": "Español"
+        }
+    },
+    {
+        "model": "socialSound.detallescancion",
+        "pk": 3,
+        "fields": {
+            "cancion": 3,
+            "letra": "Qué queda de ti Qué queda de de ti, pa ti Qué queda de mi Qué queda de mi, pa mi  No nos queda nada Solo nuestra carne Y ya se está pudriendo No nos queda nada  Seremos un engaño, dentro de estos muros Seremos un reclamo,para algún futuro",
+            "duracion": "00:03:20",
+            "idioma": "Español"
+        }
+    },
+    {
+        "model": "socialSound.detallescancion",
+        "pk": 6,
+        "fields": {
+            "cancion": 6,
+            "letra": "chan chan chan chen chancha chan chon",
+            "duracion": "00:03:20",
+            "idioma": "Español"
+        }
+    },
+    {
+        "model": "socialSound.detallescancion",
+        "pk": 7,
+        "fields": {
+            "cancion": 7,
+            "letra": "police in helcoprteererere",
+            "duracion": "00:03:20",
+            "idioma": "Español"
+        }
+    },
+    {
+        "model": "socialSound.playlist",
+        "pk": 1,
+        "fields": {
+            "nombre": "Playlist 1",
+            "descripcion": "Descripción de Playlist 1.",
+            "usuario": 1
+        }
+    },
+    {
+        "model": "socialSound.playlist",
+        "pk": 2,
+        "fields": {
+            "nombre": "Playlist 2",
+            "descripcion": "Descripción de Playlist 2.",
+            "usuario": 2
+        }
+    },
+    {
+        "model": "socialSound.playlist",
+        "pk": 3,
+        "fields": {
+            "nombre": "Playlist 3",
+            "descripcion": "Descripción de Playlist 3.",
+            "usuario": 3
+        }
+    },
+    {
+        "model": "socialSound.cancionplaylist",
+        "pk": 1,
+        "fields": {
+            "cancion": 1,
+            "playlist": 1
+        }
+    },
+    {
+        "model": "socialSound.cancionplaylist",
+        "pk": 2,
+        "fields": {
+            "cancion": 2,
+            "playlist": 1
+        }
+    },
+    {
+        "model": "socialSound.cancionplaylist",
+        "pk": 3,
+        "fields": {
+            "cancion": 3,
+            "playlist": 2
+        }
+    },
+    {
+        "model": "socialSound.comentario",
+        "pk": 1,
+        "fields": {
+            "contenido": "¡¡Como mola!",
+            "album": 1,
+            "usuario": 1
+        }
+    },
+    {
+        "model": "socialSound.comentario",
+        "pk": 2,
+        "fields": {
+            "contenido": "Lo escucho todos los días!.",
+            "album": 2,
+            "usuario": 2
+        }
+    },
+    {
+        "model": "socialSound.comentario",
+        "pk": 3,
+        "fields": {
+            "contenido": "el útimo temas es (L).",
+            "album": 3,
+            "usuario": 3
+        }
+    },
+    {
+        "model": "socialSound.mensajeprivado",
+        "pk": 1,
+        "fields": {
+            "emisor": 2,
+            "receptor": 1,
+            "contenido": "Hola, usuario 1!",
+            "leido": false
+        }
+    },
+    {
+        "model": "socialSound.mensajeprivado",
+        "pk": 4,
+        "fields": {
+            "emisor": 1,
+            "receptor": 2,
+            "contenido": "Hola, usuario 2!",
+            "leido": false
+        }
+    },
+    {
+        "model": "socialSound.mensajeprivado",
+        "pk": 2,
+        "fields": {
+            "emisor": 2,
+            "receptor": 3,
+            "contenido": "Hola, usuario 3!",
+            "leido": false
+        }
+    },
+    {
+        "model": "socialSound.mensajeprivado",
+        "pk": 3,
+        "fields": {
+            "emisor": 3,
+            "receptor": 1,
+            "contenido": "Hola, usuario 1!",
+            "leido": false
+        }
+    },
+    {
+        "model": "socialSound.seguidores",
+        "pk": 1,
+        "fields": {
+            "seguidor": 1,
+            "seguido": 2
+        }
+    },
+    {
+        "model": "socialSound.seguidores",
+        "pk": 2,
+        "fields": {
+            "seguidor": 1,
+            "seguido": 3
+        }
+    },
+    {
+        "model": "socialSound.seguidores",
+        "pk": 3,
+        "fields": {
+            "seguidor": 2,
+            "seguido": 3
+        }
+    },
+    {
+        "model": "socialSound.seguidores",
+        "pk": 4,
+        "fields": {
+            "seguidor": 2,
+            "seguido": 1
+        }
+    },
+    {
+        "model": "socialSound.seguidores",
+        "pk": 5,
+        "fields": {
+            "seguidor": 3,
+            "seguido": 1
+        }
+    },
+    {
+        "model": "socialSound.seguidores",
+        "pk": 6,
+        "fields": {
+            "seguidor": 3,
+            "seguido": 2
+        }
+    },
+    {
+        "model": "socialSound.guardado",
+        "pk": 1,
+        "fields": {
+            "usuario": 1,
+            "cancion": 1
+        }
+    },
+    {
+        "model": "socialSound.guardado",
+        "pk": 2,
+        "fields": {
+            "usuario": 2,
+            "cancion": 2
+        }
+    },
+    {
+        "model": "socialSound.guardado",
+        "pk": 3,
+        "fields": {
+            "usuario": 3,
+            "cancion": 3
+        }
+    },
+    {
+        "model": "socialSound.like",
+        "pk": 1,
+        "fields": {
+            "usuario": 1,
+            "cancion": 2
+        }
+    },
+    {
+        "model": "socialSound.like",
+        "pk": 2,
+        "fields": {
+            "usuario": 2,
+            "cancion": 1
+        }
+    },
+    {
+        "model": "socialSound.like",
+        "pk": 3,
+        "fields": {
+            "usuario": 3,
+            "cancion": 3
+        }
+    }
+]
